@@ -7,6 +7,7 @@ export default function Page() {
     <>
       <h1>App Router</h1>
       <p>Check test</p>
+      <p>Check test 2</p>
     </>
   );
 }
