@@ -8,3 +8,11 @@ it("App Router: Works with Server Components", () => {
   render(<Page />);
   expect(screen.getByRole("heading")).toHaveTextContent("App Router");
 });
+
+it("App Router: Works with Server Components", () => {
+  render(<Page />);
+  expect(screen.getByText("Check test")).toBeInTheDocument();
+});
+
+
+
